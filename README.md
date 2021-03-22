@@ -6,7 +6,7 @@ The code was developed in Python (64-bit) 3.7.4, Numpy 1.17.1, Keras 2.2.4, Tens
 
 ---
 
-The method envolves three main steps for images comparison which needs to be followed sequentially:
+The method envolves three main steps for images comparison which need to be followed sequentially:
 
 1) extract_features;
 2) train_combination;
