@@ -1,0 +1,15 @@
+PCB: false
+batchsize: 3
+color_jitter: false
+data_dir: /work/carolinerodrigues/Market-1501-v15.09.15/
+droprate: 0.5
+erasing_p: 0
+fp16: false
+gpu_ids: '7'
+lr: 0.05
+name: PCB
+nclasses: 1
+stride: 2
+train_all: true
+use_NAS: false
+use_dense: false
