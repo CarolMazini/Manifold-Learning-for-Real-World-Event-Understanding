@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Information Retrieval metrics
 
+Originally available in: https://gist.github.com/bwhite/3726239
+
 Useful Resources:
 http://www.cs.utexas.edu/~mooney/ir-course/slides/Evaluation.ppt
 http://www.nii.ac.jp/TechReports/05-014E.pdf
