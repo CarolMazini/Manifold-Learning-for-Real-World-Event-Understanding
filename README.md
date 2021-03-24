@@ -228,6 +228,6 @@ The presented code is the implementation of the paper entitled *Manifold Learnin
 ```
 @article{rodrigues:TIFS:2021, Author = {Caroline Mazini Rodrigues and Aurea Soriano-Vargas and Bahram Lavi and Anderson Rocha and Zanoni Dias}, Title = {{Manifold Learning for Real-World Event Understanding}}, Year = {2021}, journal   = {IEEE Transactions on Infomation Forensics & Security}}
 
-@article{rodrigues:supplementaryTIFS:2021, author = {Caroline Mazini Rodrigues and Aurea Soriano-Vargas and Bahram Lavi and Anderson Rocha and Zanoni Dias}, title        =  {{Manifold Learning for Real-World Event Understanding}}, year = 2021, doi = {10.5281/zenodo.4633316}, url = https://doi.org/10.5281/zenodo.4633316}
+@article{rodrigues:supplementaryTIFS:2021, Suthor = {Caroline Mazini Rodrigues and Aurea Soriano-Vargas and Bahram Lavi and Anderson Rocha and Zanoni Dias}, Title =  {{Manifold Learning for Real-World Event Understanding}}, Year = 2021, doi = {10.5281/zenodo.4633316}, url = {https://doi.org/10.5281/zenodo.4633316}}
 
 ```
