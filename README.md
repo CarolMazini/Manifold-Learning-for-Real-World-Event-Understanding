@@ -83,15 +83,15 @@ python main_extract_all_features.py --dataset bombing --gpu_ids 0 --aug _aug
 ## 2) train_combination: 
 
 It is important to have the base features extracted (step 1) for this step. We implemented networks with three different loss functions:
-- Cross-Entropy:
+- Cross-Entropy;
   
  
 
-- Contrastive loss:
+- Contrastive loss;
   
   
 
--  Triplet loss:
+-  Triplet loss.
   
  
 
@@ -173,7 +173,7 @@ Here, we can compare:
 	- fine-tuned: simple concantenation of objects, places and people features, but after fine-tuning the extractor networks (it is possible to fine-tune the models using the script "classifiers/finetuning_nets.py");
 	- ESS: features obtained by Event Semantic Space method generating using the training images as ERIs;
     ```
-    @inproceedings{rodrigues:WIFS:2019, author = {Caroline Mazini Rodrigues and Luis Pereira and Anderson Rocha and Zanoni Dias}, booktitle = {11th IEEE International Workshop on Information Forensics and Security (WIFS)}, pages = {1-6}, publisher = {IEEE}, title = {Image Semantic Representation for Event Understanding}, year = 2019}
+    @inproceedings{rodrigues:WIFS:2019, author = {Caroline Mazini Rodrigues and Luis Pereira and Anderson Rocha and Zanoni Dias}, booktitle = {11th IEEE International Workshop on Information Forensics and Security (WIFS)}, pages = {1-6}, publisher = {IEEE}, title = {Image Semantic Representation for Event Understanding}, year = 2019, doi={10.1109/WIFS47025.2019.9035102}}
     ```
 	- Cross-Entropy: using the cross-entropy loss to train the combination network for feature extraction ("/train_combination/training_different_architectures/train_classifier_cross_entropy_deep.py" or "/train_combination/training_with_different_sizes/train_classifier_cross_entropy_vary_training.py");
 	- Contrastive: using the contrastive loss to train the combination network for feature extraction ("/train_combination/training_different_architectures/train_classifier_contrastive_deep.py" or "/train_combination/training_with_different_sizes/train_classifier_contrastive_vary_training.py");
@@ -227,4 +227,7 @@ python train_svm.py --dataset bombing --aug _aug --method triplet
 The presented code is the implementation of the paper entitled *Manifold Learning for Real-World Event Understanding*. If you find it useful in your research, please cite our paper:
 ```
 @article{rodrigues:TIFS:2021, Author = {Caroline Mazini Rodrigues and Aurea Soriano-Vargas and Bahram Lavi and Anderson Rocha and Zanoni Dias}, Title = {{Manifold Learning for Real-World Event Understanding}}, Year = {2021}, journal   = {IEEE Transactions on Infomation Forensics & Security}}
+
+@article{rodrigues:supplementaryTIFS:2021, author = {Caroline Mazini Rodrigues and Aurea Soriano-Vargas and Bahram Lavi and Anderson Rocha and Zanoni Dias}, title        =  {{Manifold Learning for Real-World Event Understanding}}, year = 2021, doi = {10.5281/zenodo.4633316}, url = https://doi.org/10.5281/zenodo.4633316}
+
 ```
