@@ -204,8 +204,9 @@ The ranking file contain the positions ordered according to the images distances
 For this step it is required to have all features we want to compare already extracted.
 
 Here, we can use the features obtained from the trained combination (or other features we want), to train:
-	- an MLP ("train_with_manifold/train_mlp.py");
-	- an SVM ("train_with_manifold/train_svm.py").
+	
+- an MLP ("train_with_manifold/train_mlp.py");
+- an SVM ("train_with_manifold/train_svm.py").
 
 **Example**
 
@@ -226,8 +227,8 @@ python train_svm.py --dataset bombing --aug _aug --method triplet
 
 The presented code is the implementation of the paper entitled *Manifold Learning for Real-World Event Understanding*. If you find it useful in your research, please cite our paper:
 ```
-@article{rodrigues:TIFS:2021, Author = {Caroline Mazini Rodrigues and Aurea Soriano-Vargas and Bahram Lavi and Anderson Rocha and Zanoni Dias}, Title = {{Manifold Learning for Real-World Event Understanding}}, Year = {2021}, journal   = {IEEE Transactions on Infomation Forensics & Security}}
+@article{rodrigues:TIFS:2021, Author = {Caroline Mazini Rodrigues and Aurea Soriano-Vargas and Bahram Lavi and Anderson Rocha and Zanoni Dias}, Title = {{Manifold Learning for Real-World Event Understanding}}, Year = {2021}, journal   = {IEEE Transactions on Infomation Forensics & Security}, doi = {10.1109/TIFS.2021.3070431}}
 
-@article{rodrigues:supplementaryTIFS:2021, Suthor = {Caroline Mazini Rodrigues and Aurea Soriano-Vargas and Bahram Lavi and Anderson Rocha and Zanoni Dias}, Title =  {{Manifold Learning for Real-World Event Understanding}}, Year = 2021, doi = {10.5281/zenodo.4633316}, url = {https://doi.org/10.5281/zenodo.4633316}}
+@article{rodrigues:supplementaryTIFS:2021, Author = {Caroline Mazini Rodrigues and Aurea Soriano-Vargas and Bahram Lavi and Anderson Rocha and Zanoni Dias}, Title =  {{Manifold Learning for Real-World Event Understanding}}, Year = 2021, doi = {10.5281/zenodo.4633316}, url = {https://doi.org/10.5281/zenodo.4633316}}
 
 ```
